@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/vapor/fluent-kit.git", from: "1.48.4"),
-        .package(url: "https://github.com/vapor/sqlite-kit.git", from: "4.5.1"),
+        .package(url: "https://github.com/talmeme/sqlite-kit.git", branch: "sqlcipher"),
         .package(url: "https://github.com/apple/swift-log.git", from: "1.5.4"),
     ],
     targets: [
